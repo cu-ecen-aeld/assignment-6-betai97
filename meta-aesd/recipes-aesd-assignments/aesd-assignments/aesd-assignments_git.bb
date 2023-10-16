@@ -23,9 +23,9 @@ TARGET_LDFLAGS += "-pthread -lrt"
 # Install update-rc.d class needed for startup script setups in System-V
 inherit update-rc.d
 # Flag our package name as one who uses init scripts
-INITSCRIPT_PACKAGES="${PN}"
+INITSCRIPT_PACKAGES = "${PN}"
 # Actually define our script as an init script
-INITSCRIPT_NAME:${PN} = "aesdsocket-start-stop.sh"
+INITSCRIPT_NAME:${PN} = "S99aesdsocket"
 
 do_configure () {
 	:
