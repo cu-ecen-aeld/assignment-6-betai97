@@ -7,7 +7,7 @@ SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-betai97.git
 
 PV = "1.0+git${SRCPV}"
 
-SRCREV = "52311d1af0492421c28118c9c4df663df92e6f97"
+SRCREV = "f182cfc69a7ea3f629c785a04ba02c0f259e67ef"
 
 # This sets your staging directory based on WORKDIR, where WORKDIR is defined at 
 # https://docs.yoctoproject.org/ref-manual/variables.html?highlight=workdir#term-WORKDIR
