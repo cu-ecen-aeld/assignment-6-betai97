@@ -47,6 +47,6 @@ do_install () {
 	install -d ${D}${sysconfdir}/init.d
 	install -d ${D}${bindir}
 
-	install -m 0755 ${S}/aS99aesdsocket ${D}${sysconfdir}/init.d
+	install -m 0755 ${S}/S99aesdsocket ${D}${sysconfdir}/init.d
 	install -m 0755 ${S}/aesdsocket ${D}${bindir}/
 }
